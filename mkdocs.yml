@@ -1,1 +1,30 @@
-site_name: My site
+site_name: AutoMashup site
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/MichaelMikkles/AutoMashup/tree/main 
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - md_in_html
+
+nav:
+  - Home: index.md
+  - Tutorial: tutorial.md
+  - Future work: FutureWork.md
+  - Credits: credits.md
