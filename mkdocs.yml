@@ -1,7 +1,1 @@
-site_name: AutoMashup site
-
-nav:
-  - Home: index.md
-  - Tutorial: tutorial.md
-  - Future work: FutureWork.md
-  - Credits: credits.md
+site_name: My site
